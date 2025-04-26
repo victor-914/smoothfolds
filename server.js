@@ -6,15 +6,15 @@ const multer = require("multer");
 const upload = multer();
 
 const app = express();
-const PORT = 3000;
+const PORT = 31000;
 
 app.use(bodyParser.json());
 
 const transporter = nodemailer.createTransport({
   service: "gmail", // Use your email service (e.g., Gmail, Outlook)
   auth: {
-    user: "okaforchineduvictornako@gmail.com",
-    pass: "bdpmjiexysqlzudi",
+    user: "",
+    pass: "",
   },
 });
 
