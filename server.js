@@ -6,7 +6,7 @@ const multer = require("multer");
 const upload = multer();
 
 const app = express();
-const PORT = 31000;
+const PORT = 9000;
 
 app.use(bodyParser.json());
 
